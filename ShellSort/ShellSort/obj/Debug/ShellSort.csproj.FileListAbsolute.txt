@@ -1,0 +1,6 @@
+C:\Users\vraviku\Documents\Visual Studio 2017\Projects\ShellSort\ShellSort\bin\Debug\ShellSort.exe.config
+C:\Users\vraviku\Documents\Visual Studio 2017\Projects\ShellSort\ShellSort\bin\Debug\ShellSort.exe
+C:\Users\vraviku\Documents\Visual Studio 2017\Projects\ShellSort\ShellSort\bin\Debug\ShellSort.pdb
+C:\Users\vraviku\Documents\Visual Studio 2017\Projects\ShellSort\ShellSort\obj\Debug\ShellSort.exe
+C:\Users\vraviku\Documents\Visual Studio 2017\Projects\ShellSort\ShellSort\obj\Debug\ShellSort.pdb
+C:\Users\vraviku\Documents\Visual Studio 2017\Projects\ShellSort\ShellSort\obj\Debug\ShellSort.csprojResolveAssemblyReference.cache
