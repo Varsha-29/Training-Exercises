@@ -14,14 +14,19 @@ namespace CarManufacturer
             CarFactory carfactory = new CarFactory();
             string[] features = { "AIRBAG ", "FUEL INJECTION", "CRUISE CONTROL" };
             string[] userFeature = new string[3];
-            Console.WriteLine("\n Choose a model\n"
+            Console.WriteLine("\n Choose a Manufacturer\n"
              + "1.Suzuki\n"
             + "2.Ford\n" +
             "3.Swift\n" +
             "4.Nissan\n" +
             "5.Volkswagen\n" +
             "6.Toyota\n");
-            int model = Convert.ToInt32(Console.ReadLine());
+            int manufacturer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n Choose a model\n"
+                + "1.SUV\n" +
+                "2.Sedan\n" +
+                "3.Hatch Back");
+            int model= Convert.ToInt32(Console.ReadLine()); ;
             string color;
 
             Console.WriteLine("\n Available features\n"
@@ -42,7 +47,7 @@ namespace CarManufacturer
                 }
                 Console.WriteLine("Enter preferred color");
                 color = Convert.ToString(Console.ReadLine());
-                carfactory.CreateCar((CarManufactures)model - 1, color, userFeature);
+                carfactory.CreateCar((CarManufactures)manufacturer - 1, color, userFeature,(CarModels)model-1);
                 Console.ReadKey();
                 void processChoice(int selection, int index)
                 {

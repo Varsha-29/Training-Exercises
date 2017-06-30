@@ -42,13 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory.cs" />
     <Compile Include="AirBag.cs" />
+    <Compile Include="CarType.cs" />
     <Compile Include="CruiseControl.cs" />
     <Compile Include="Feature.cs" />
+    <Compile Include="FeatureFactory.cs" />
     <Compile Include="FuelInjection.cs" />
     <Compile Include="CarFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
+    <Compile Include="TypeFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
